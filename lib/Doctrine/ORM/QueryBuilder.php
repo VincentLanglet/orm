@@ -1327,8 +1327,6 @@ class QueryBuilder
      * Gets a query part by its name.
      *
      * @return mixed
-     *
-     * @todo Rename: getQueryPart (or remove?)
      */
     public function getDQLPart($queryPartName)
     {
@@ -1339,8 +1337,6 @@ class QueryBuilder
      * Gets all query parts.
      *
      * @return mixed[] $dqlParts
-     *
-     * @todo Rename: getQueryParts (or remove?)
      */
     public function getDQLParts()
     {
